@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.h-80{
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (max-width:426px) {
+    .h-80{
+        height: 100%;
+    }
+         iframe{
+        /* width: 40 !important;
+        height:20 !important; */
+        padding: 1rem !important;
+    } 
+    }
+   
